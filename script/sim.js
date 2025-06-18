@@ -61,7 +61,7 @@ module.exports.run = async function({ api, event, args }) {
 
   // Command logic
   if (args.length < 1) {
-    return api.sendMessage("❌ Please ask a question!", event.threadID, event.messageID);
+    return api.sendMessage("Lagyan mo message tanga", event.threadID, event.messageID);
   }
 
   const command = args[0].toLowerCase();
